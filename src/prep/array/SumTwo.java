@@ -7,7 +7,7 @@ public class SumTwo {
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i + 1; j < numbers.length; j++) {
                 if (numbers[i] + numbers[j] == targetSum) {
-                    System.out.println(numbers[i] + "\t\t" + numbers[j] + "\t" + "= targetSum");
+                    System.out.println(numbers[i] + "\t\t" + numbers[j]);
                 }
             }
         }
