@@ -8,5 +8,6 @@ public class DuplicateNum {
         int a[] = {11, 11, 22, 3, 3, 22, 45};
         int min = Arrays.stream(a).min().getAsInt();
         System.out.println(min);
+        //
     }
 }
