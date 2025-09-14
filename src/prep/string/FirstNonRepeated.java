@@ -12,7 +12,6 @@ public class FirstNonRepeated {
                 LinkedHashMap::new,
                 Collectors.counting())).entrySet().stream().filter(entry -> entry.getValue() == 1)
                 .map(Map.Entry::getKey).findFirst().orElse(null);
-
         System.out.println("First non-repeated: " + result);
     }
 }
